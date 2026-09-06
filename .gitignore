@@ -1,0 +1,5 @@
+data-pack/
+__pycache__/
+*.pyc
+.venv/
+.env
