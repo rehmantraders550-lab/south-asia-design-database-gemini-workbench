@@ -1,6 +1,12 @@
 # Gemini handoff — South Asia design database
 
-Use this repository as the working copy. The private pack is the only baseline dataset.
+## Session requirement
+
+Start a brand-new Gemini CLI chat/session for this repository. Do not continue an older Gemini conversation. Treat this file as the complete task brief.
+
+## Private data
+
+The private `data-pack` is intentionally excluded from GitHub. Use the local pack supplied by the user, placed beside this file. Do not upload the pack or any sensitive research and permissions metadata to a public location.
 
 ## Completed first half
 
@@ -22,6 +28,14 @@ Use this repository as the working copy. The private pack is the only baseline d
 
 Do not invent cultural meanings, attribution, dates, permissions, or source URLs. Do not authorize model training or reuse when permission is `not_determined`. Do not broaden beyond India, Pakistan, Bangladesh, Sri Lanka, Nepal, Bhutan, and Maldives without explicit user instruction.
 
-## Expected completion
+## Required return to the originating assistant
 
-Commit the enriched pack and a short `GEMINI_COMPLETION.md` describing every changed record, source, permission decision, and remaining uncertainty.
+When finished, write `GEMINI_COMPLETION.md` in the repository. Include:
+
+- every changed record and source ID;
+- evidence used and canonical URLs;
+- all rights, consent, and AI-training permission decisions;
+- records that remain uncertain or need review;
+- the final validator result.
+
+Commit the completion report and enriched files to this private repository. Then send a concise findings summary in this new Gemini chat and include the commit hash so the originating assistant can read the report back. Do not claim completion if the private pack was unavailable or validation failed.
